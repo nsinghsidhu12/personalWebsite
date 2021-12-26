@@ -1,0 +1,78 @@
+#hero {
+  display: grid;
+  grid-template-columns: 1fr 20fr 1fr;
+  grid-template-rows: 2fr 3fr 2fr;
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://wallpaperaccess.com/full/4713424.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+#hero #heroContainer {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  text-shadow: 2px 2px #000000;
+}
+
+#hero #nameTitle {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  margin: 0;
+  font-size: 48pt;
+}
+
+#hero #jobRole {
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  margin: 0;
+  font-size: 24pt;
+}
+
+#hero #heroBtnContainer {
+  grid-column: 1 / span 1;
+  grid-row: 4 / span 1;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+#heroBtnContainer #heroBtn {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+  background: #fe5a3d;
+  border-radius: 6px;
+  border-width: 0;
+  color: #fff;
+  cursor: pointer;
+  height: 44px;
+  margin: 12px 0 0;
+  padding: 0 25px;
+  text-align: center;
+}
+
+
+@media (max-width: 1050px) {
+  #hero #nameTitle {
+    font-size: 30pt;
+  }
+
+  #hero #jobRole {
+    font-size: 16pt;
+  }
+}

@@ -1,0 +1,11 @@
+#aboutMe {
+  display: grid;
+  grid-template-columns: 1fr 20fr 1fr;
+}
+
+#aboutMeContainer {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
