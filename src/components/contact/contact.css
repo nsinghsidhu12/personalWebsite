@@ -1,0 +1,44 @@
+#contact {
+  display: grid;
+  grid-template-columns: 1fr 20fr 1fr;
+  padding: 75px 0;
+}
+
+#contact #contactTitle {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  margin: 0;
+  font-size: 28pt;
+  padding-bottom: 30px;
+}
+
+#contact #iconContainer {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+  display: flex;
+  justify-content: center;
+}
+
+#iconContainer #github {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+  font-size: 40px;
+  margin: 0 25px;
+}
+
+#iconContainer #linkedin {
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
+  font-size: 40px;
+  margin: 0 25px;
+}
+
+#iconContainer #email {
+  grid-column: 4 / span 1;
+  grid-row: 1 / span 1;
+  font-size: 40px;
+  margin: 0 25px;
+}
