@@ -58,6 +58,8 @@
   background: #fe5a3d;
   border-radius: 6px;
   border-width: 0;
+  font-size: 12pt;
+  font-weight: bolder;
   color: #fff;
   cursor: pointer;
   height: 44px;
@@ -67,12 +69,12 @@
 }
 
 
-@media (max-width: 1050px) {
+@media (max-width: 700px) {
   #hero #nameTitle {
-    font-size: 30pt;
+    font-size: 36pt;
   }
 
   #hero #jobRole {
-    font-size: 16pt;
+    font-size: 22pt;
   }
 }

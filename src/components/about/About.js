@@ -1,6 +1,6 @@
 import './about.css';
 import Image from './Image';
-import Text from './Text';
+import Info from './Info';
 import Title from './Title';
 
 const About = () => {
@@ -9,7 +9,7 @@ const About = () => {
       <div id='aboutContainer'>
         <Title/>
         <Image/>
-        <Text/>
+        <Info/>
       </div>
     </section>
   )
