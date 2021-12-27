@@ -5,7 +5,7 @@ const Nav = ({ active }) => {
         <li>Home</li>
         <li>Projects</li>
         <li>Contacts</li>
-        <li>Something</li>
+        <li>About</li>
         <li>Another</li>
       </ul>
     </nav>

@@ -1,10 +1,15 @@
 import './about.css';
+import Image from './Image';
+import Text from './Text';
+import Title from './Title';
 
 const About = () => {
   return (
-    <section id='aboutMe'>
-      <div id='aboutMeContainer'>
-        
+    <section id='about'>
+      <div id='aboutContainer'>
+        <Title/>
+        <Image/>
+        <Text/>
       </div>
     </section>
   )
