@@ -1,0 +1,23 @@
+#skills {
+  display: grid;
+  grid-template-columns: 1fr 20fr 1fr;
+  padding: 75px 0;
+}
+
+#skills #skillsContainer {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#skillsContainer #skillsTitle {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 1;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  margin: 0;
+  font-size: 28pt;
+  padding-bottom: 30px;
+}

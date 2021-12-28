@@ -5,6 +5,7 @@ import Hero from './components/hero/Hero';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
+import Skills from './components/skills/Skills';
 
 const App = () => {
   const [toggle, setToggle] = useState(false);
@@ -18,6 +19,7 @@ const App = () => {
       <Header onToggle={onToggle} active={toggle}/>
       <Hero/>
       <About/>
+      <Skills/>
       <Contact/>
       <Footer/>
     </div>
