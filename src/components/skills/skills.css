@@ -4,15 +4,8 @@
   padding: 75px 0;
 }
 
-#skills #skillsContainer {
-  grid-column: 2 / span 1;
-  grid-row: 1 / span 1;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-#skillsContainer #skillsTitle {
-  grid-column: 1 / span 2;
+#skills #skillsTitle {
+  grid-column: 1 / span 3;
   grid-row: 1 / span 1;
   display: flex;
   align-self: center;
@@ -21,3 +14,177 @@
   font-size: 28pt;
   padding-bottom: 30px;
 }
+
+#skills #skillsContainer {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#skillsContainer #html {
+  display: grid;
+  justify-items: center;
+  width: 12%;
+}
+
+#html #htmlImg {
+  width: 45%;
+  min-width: 70px;
+}
+
+#skillsContainer #css {
+  display: grid;
+  justify-items: center;
+  width: 12%;
+}
+
+#css #cssImg {
+  width: 45%;
+  min-width: 70px;
+}
+
+#skillsContainer #js {
+  display: grid;
+  justify-items: center;
+  width: 12%;
+}
+
+#js #jsImg {
+  width: 45%;
+  min-width: 70px;
+}
+
+#skillsContainer #bootstrap {
+  display: grid;
+  justify-items: center;
+  width: 12%;
+}
+
+#bootstrap #bootstrapImg {
+  width: 45%;
+  min-width: 70px;
+}
+
+#skillsContainer #java {
+  display: grid;
+  justify-items: center;
+  width: 12%;
+}
+
+#java #javaImg {
+  width: 45%;
+  min-width: 70px;
+}
+
+@media (max-width: 1050px) {
+  #skillsContainer #html {
+    width: 13%;
+  }
+
+  #skillsContainer #css {
+    width: 13%;
+  }
+
+  #skillsContainer #js {
+    width: 13%;
+  }
+
+  #skillsContainer #bootstrap {
+    width: 13%;
+  }
+
+  #skillsContainer #java {
+    width: 13%;
+  }
+}
+
+@media (max-width: 800px) {
+  #skillsContainer #html {
+    width: 16%;
+  }
+
+  #skillsContainer #css {
+    width: 16%;
+  }
+
+  #skillsContainer #js {
+    width: 16%;
+  }
+
+  #skillsContainer #bootstrap {
+    width: 16%;
+  }
+
+  #skillsContainer #java {
+    width: 16%;
+  }
+}
+
+ @media (max-width: 600px) {
+  #skillsContainer #html {
+    width: 19%;
+  }
+
+  #skillsContainer #css {
+    width: 19%;
+  }
+
+  #skillsContainer #js {
+    width: 19%;
+  }
+
+  #skillsContainer #bootstrap {
+    width: 19%;
+  }
+
+  #skillsContainer #java {
+    width: 19%;
+  }
+} 
+
+@media (max-width: 500px) {
+  #skillsContainer #html {
+    width: 31%;
+  }
+
+  #skillsContainer #css {
+    width: 31%;
+  }
+
+  #skillsContainer #js {
+    width: 31%;
+  }
+
+  #skillsContainer #bootstrap {
+    width: 31%;
+  }
+
+  #skillsContainer #java {
+    width: 31%;
+  }
+}
+
+@media (max-width: 300px) {
+  #skillsContainer #html {
+    width: 48%;
+  }
+
+  #skillsContainer #css {
+    width: 48%;
+  }
+
+  #skillsContainer #js {
+    width: 48%;
+  }
+
+  #skillsContainer #bootstrap {
+    width: 48%;
+  }
+
+  #skillsContainer #java {
+    width: 48%;
+  }
+}
+
