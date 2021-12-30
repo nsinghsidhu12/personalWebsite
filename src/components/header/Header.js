@@ -8,7 +8,7 @@ const Header = ({ onToggle, active }) => {
     <header id='header'>
       <Title/>
       <Nav active={active}/>
-      <Hamburger onToggle={onToggle}/>
+      <Hamburger onToggle={onToggle} active={active}/>
     </header>
   )
 }

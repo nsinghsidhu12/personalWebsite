@@ -1,6 +1,6 @@
 #header {
   display: grid;
-  grid-template-columns: 1fr 4fr 7fr 1fr;
+  grid-template-columns: 1fr 9fr 12fr 1fr;
   padding: 30px 0;
   color: #ffffff;
   width: 100%;
@@ -67,6 +67,10 @@ ul li {
   font-size: 30px;
 }
 
+#header #toggleButtonActive {
+  display: none;
+}
+
 ul li:hover {
   color: #c8243f;
 }
@@ -82,11 +86,24 @@ ul li:hover {
     grid-column: 3 / span 1;
     grid-row: 1 / span 1;
     display: flex;
+    padding: 8px;
+    transition: ease 0.3s all;
+  }
+
+  #header #toggleButtonActive {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1;
+    display: flex;
+    border: 3px #ffffff solid;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: ease 0.1s all;
   }
 
   #header #nav {
     display: block;
-    transition: ease 0.3s all;
+    transition: ease 0.1s all;
   }
 
   #header #navActive {

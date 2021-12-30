@@ -1,10 +1,10 @@
 import { FaBars } from 'react-icons/fa';
 
-const Hamburger = ({ onToggle }) => {
+const Hamburger = ({ onToggle, active }) => {
 
   return (
     <>
-    <FaBars id='toggleButton' onClick={onToggle}/>
+    <FaBars id={`toggleButton${active ? 'Active' : ''}`} onClick={onToggle} />
     </>
   )
 }
