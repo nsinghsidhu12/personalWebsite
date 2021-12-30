@@ -12,7 +12,7 @@
   justify-self: center;
   margin: 0;
   font-size: 28pt;
-  padding-bottom: 30px;
+  padding-bottom: 75px;
 }
 
 #skills #skillsContainer {
@@ -27,6 +27,9 @@
   display: grid;
   justify-items: center;
   width: 12%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin-bottom: 0.75rem;
+  border-radius: 5px;
 }
 
 #html #htmlImg {
@@ -38,6 +41,9 @@
   display: grid;
   justify-items: center;
   width: 12%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin-bottom: 0.75rem;
+  border-radius: 5px;
 }
 
 #css #cssImg {
@@ -49,6 +55,9 @@
   display: grid;
   justify-items: center;
   width: 12%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin-bottom: 0.75rem;
+  border-radius: 5px;
 }
 
 #js #jsImg {
@@ -60,6 +69,9 @@
   display: grid;
   justify-items: center;
   width: 12%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin-bottom: 0.75rem;
+  border-radius: 5px;
 }
 
 #bootstrap #bootstrapImg {
@@ -71,6 +83,9 @@
   display: grid;
   justify-items: center;
   width: 12%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin-bottom: 0.75rem;
+  border-radius: 5px;
 }
 
 #java #javaImg {
@@ -78,69 +93,125 @@
   min-width: 70px;
 }
 
+#skillsContainer #git {
+  display: grid;
+  justify-items: center;
+  width: 12%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin-bottom: 0.75rem;
+  border-radius: 5px;
+}
+
+#git #gitImg {
+  width: 45%;
+  min-width: 70px;
+}
+
+#skillsContainer #visual {
+  display: grid;
+  justify-items: center;
+  width: 12%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin-bottom: 0.75rem;
+  border-radius: 5px;
+}
+
+#visual #visualImg {
+  width: 45%;
+  min-width: 70px;
+}
+
+#visual #visualText {
+  text-align: center;
+}
+
 @media (max-width: 1050px) {
   #skillsContainer #html {
-    width: 13%;
+    width: 15%;
   }
 
   #skillsContainer #css {
-    width: 13%;
+    width: 15%;
   }
 
   #skillsContainer #js {
-    width: 13%;
+    width: 15%;
   }
 
   #skillsContainer #bootstrap {
-    width: 13%;
+    width: 15%;
   }
 
   #skillsContainer #java {
-    width: 13%;
+    width: 15%;
+  }
+
+  #skillsContainer #git {
+    width: 15%;
+  }
+
+  #skillsContainer #visual {
+    width: 15%;
   }
 }
 
 @media (max-width: 800px) {
   #skillsContainer #html {
-    width: 16%;
+    width: 19%;
   }
 
   #skillsContainer #css {
-    width: 16%;
+    width: 19%;
   }
 
   #skillsContainer #js {
-    width: 16%;
+    width: 19%;
   }
 
   #skillsContainer #bootstrap {
-    width: 16%;
+    width: 19%;
   }
 
   #skillsContainer #java {
-    width: 16%;
+    width: 19%;
+  }
+
+  #skillsContainer #git {
+    width: 19%;
+  }
+
+  #skillsContainer #visual {
+    width: 19%;
   }
 }
 
  @media (max-width: 600px) {
   #skillsContainer #html {
-    width: 19%;
+    width: 23%;
   }
 
   #skillsContainer #css {
-    width: 19%;
+    width: 23%;
   }
 
   #skillsContainer #js {
-    width: 19%;
+    width: 23%;
   }
 
   #skillsContainer #bootstrap {
-    width: 19%;
+    width: 23%;
   }
 
   #skillsContainer #java {
-    width: 19%;
+    width: 23%;
+  }
+
+  #skillsContainer #git {
+    width: 23%;
+  }
+
+  #skillsContainer #visual {
+    width: 23%;
   }
 } 
 
@@ -164,27 +235,43 @@
   #skillsContainer #java {
     width: 31%;
   }
+
+  #skillsContainer #git {
+    width: 31%;
+  }
+
+  #skillsContainer #visual {
+    width: 31%;
+  }
 }
 
 @media (max-width: 300px) {
   #skillsContainer #html {
-    width: 48%;
+    width: 45%;
   }
 
   #skillsContainer #css {
-    width: 48%;
+    width: 45%;
   }
 
   #skillsContainer #js {
-    width: 48%;
+    width: 45%;
   }
 
   #skillsContainer #bootstrap {
-    width: 48%;
+    width: 45%;
   }
 
   #skillsContainer #java {
-    width: 48%;
+    width: 45%;
+  }
+
+  #skillsContainer #git {
+    width: 45%;
+  }
+
+  #skillsContainer #visual {
+    width: 45%;
   }
 }
 

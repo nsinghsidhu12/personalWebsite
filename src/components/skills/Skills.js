@@ -5,6 +5,8 @@ import CSS from './CSS';
 import JavaScript from './JavaScript';
 import Java from './Java';
 import Bootstrap from './Bootstrap';
+import Git from './Git';
+import Visual from './Visual';
 
 const Skills = () => {
   return (
@@ -16,8 +18,8 @@ const Skills = () => {
         <JavaScript/>
         <Bootstrap/>
         <Java/>
-        <Java/>
-        <Java/>
+        <Visual/>
+        <Git/>
       </div>
     </section>
   )
