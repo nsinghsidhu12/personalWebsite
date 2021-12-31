@@ -1,0 +1,65 @@
+#projects {
+  display: grid;
+  grid-template-columns: 1fr 20fr 1fr;
+  padding: 75px 0;
+}
+
+#projects #projectsTitle {
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 1;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  margin: 0;
+  font-size: 28pt;
+  padding-bottom: 75px;
+}
+
+#projects #projectsContainer {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#projectsContainer #sportfolio {
+  display: grid;
+  justify-items: center;
+  width: 30%;
+  margin-bottom: 2rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 10px;
+  min-width: 300px;
+}
+
+#sportfolio img {
+  width: 100%;
+  border-radius: 10px;
+  border-end-end-radius: 0px;
+  border-end-start-radius: 0px;
+}
+
+#sportfolio #sportfolioInfo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#sportfolioInfo p {
+  margin: 10px;
+}
+
+@media (max-width: 1050px) {
+  #projectsContainer #sportfolio {
+    width: 34%;
+    min-width: 275px;
+  }
+}
+
+@media (max-width: 650px) {
+  #projectsContainer #sportfolio {
+    width: 51%;
+    min-width: 250px;
+  }
+}

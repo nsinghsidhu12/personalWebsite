@@ -6,6 +6,7 @@ import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Skills from './components/skills/Skills';
+import Projects from './components/projects/Projects';
 
 const App = () => {
   const [toggle, setToggle] = useState(false);
@@ -20,6 +21,7 @@ const App = () => {
       <Hero/>
       <About/>
       <Skills/>
+      <Projects/>
       <Contact/>
       <Footer/>
     </div>
