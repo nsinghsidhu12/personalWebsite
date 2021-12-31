@@ -4,7 +4,7 @@
   grid-template-rows: 2fr 3fr 2fr;
   height: 100vh;
   min-height: 500px;
-  background-image: url('https://wallpaperaccess.com/full/4713424.jpg');
+  background-image: url('https://assets.hongkiat.com/uploads/minimalist-dekstop-wallpapers/4k/original/15.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -20,7 +20,7 @@
   width: 100%;
   height: 100%;
   color: #ffffff;
-  text-shadow: 2px 2px #000000;
+  /* text-shadow: 2px 2px #000000; */
 }
 
 #hero #nameTitle {
@@ -55,7 +55,7 @@
 #heroBtnContainer #heroBtn {
   grid-column: 1 / span 1;
   grid-row: 1 / span 1;
-  background: #fe5a3d;
+  background: #615c7a;
   border-radius: 6px;
   border-width: 0;
   font-size: 12pt;

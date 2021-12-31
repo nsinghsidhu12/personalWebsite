@@ -6,9 +6,9 @@
   width: 100%;
   position: fixed;
   top: 0;
-  background: #1c1d25;
+  background: #1f2127;
   transition: ease 0.2s all;
-  border-bottom: 5px #c8243f solid;
+  border-bottom: 5px #615c7a solid;
 }
 
 #header #title {
@@ -72,13 +72,12 @@ ul li {
 }
 
 ul li:hover {
-  color: #c8243f;
+  color: #615c7a;
 }
 
 @media (max-width: 1050px) {
   #header {
     grid-template-columns: 1fr 20fr 1fr 1fr;
-    background: #1c1d25;
     transition: ease 0.2s all;
   }
   

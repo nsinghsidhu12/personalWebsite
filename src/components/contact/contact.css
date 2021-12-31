@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 20fr 1fr;
   padding: 75px 0;
+  background: #e6e8f9;
 }
 
 #contact #contactTitle {
@@ -12,7 +13,7 @@
   justify-self: center;
   margin: 0;
   font-size: 28pt;
-  padding-bottom: 75px;
+  padding-bottom: 30px;
 }
 
 #contact #iconContainer {
