@@ -1,7 +1,7 @@
 #header {
   display: grid;
   grid-template-columns: 1fr 9fr 12fr 1fr;
-  padding: 30px 0;
+  padding: 15px 0;
   color: #ffffff;
   width: 100%;
   position: fixed;
@@ -9,6 +9,7 @@
   background: #1f2127;
   transition: ease 0.2s all;
   border-bottom: 5px #615c7a solid;
+  z-index: 999;
 }
 
 #header #title {
@@ -53,9 +54,13 @@
   align-items: center;
 }
 
-ul li {
+ul a {
   margin-left: 3em;
   font-size: 14pt;
+  font-weight: 500;
+  text-decoration: none;
+  color: #ffffff;
+  transition: ease 0.2s all;
 }
 
 #header #toggleButton {
@@ -71,8 +76,9 @@ ul li {
   display: none;
 }
 
-ul li:hover {
-  color: #615c7a;
+ul a:hover {
+  transform: translateY(-2px);
+  transition: ease 0.2s all;
 }
 
 @media (max-width: 1050px) {

@@ -13,6 +13,7 @@
   margin: 0;
   font-size: 28pt;
   padding-bottom: 30px;
+  text-align: center;
 }
 
 #projects #projectsContainer {
@@ -31,6 +32,7 @@
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   border-radius: 10px;
   min-width: 300px;
+  transition: ease 0.2s all;
 }
 
 #sportfolio img {
@@ -48,6 +50,13 @@
 
 #sportfolioInfo p {
   margin: 10px;
+}
+
+#projectsContainer #sportfolio:hover {
+  /* transform: scale(1.1); */
+  transform: translateY(-5px);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  transition: ease 0.2s all;
 }
 
 @media (max-width: 1050px) {

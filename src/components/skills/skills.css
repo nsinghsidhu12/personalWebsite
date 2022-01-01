@@ -1,7 +1,7 @@
 #skills {
   display: grid;
   grid-template-columns: 1fr 20fr 1fr;
-  padding: 75px 0;
+  padding: 75px;
   background: #e6e8f9;
 }
 
@@ -14,6 +14,7 @@
   margin: 0;
   font-size: 28pt;
   padding-bottom: 30px;
+  text-align: center;
 }
 
 #skills #skillsContainer {
@@ -28,9 +29,10 @@
   display: grid;
   justify-items: center;
   width: 12%;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
   margin-bottom: 0.75rem;
   border-radius: 5px;
+  transition: ease 0.2s all;
 }
 
 #html #htmlImg {
@@ -42,9 +44,10 @@
   display: grid;
   justify-items: center;
   width: 12%;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
   margin-bottom: 0.75rem;
   border-radius: 5px;
+  transition: ease 0.2s all;
 }
 
 #css #cssImg {
@@ -56,9 +59,10 @@
   display: grid;
   justify-items: center;
   width: 12%;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
   margin-bottom: 0.75rem;
   border-radius: 5px;
+  transition: ease 0.2s all;
 }
 
 #js #jsImg {
@@ -70,9 +74,10 @@
   display: grid;
   justify-items: center;
   width: 12%;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
   margin-bottom: 0.75rem;
   border-radius: 5px;
+  transition: ease 0.2s all;
 }
 
 #bootstrap #bootstrapImg {
@@ -84,9 +89,10 @@
   display: grid;
   justify-items: center;
   width: 12%;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
   margin-bottom: 0.75rem;
   border-radius: 5px;
+  transition: ease 0.2s all;
 }
 
 #java #javaImg {
@@ -98,9 +104,10 @@
   display: grid;
   justify-items: center;
   width: 12%;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
   margin-bottom: 0.75rem;
   border-radius: 5px;
+  transition: ease 0.2s all;
 }
 
 #git #gitImg {
@@ -112,9 +119,10 @@
   display: grid;
   justify-items: center;
   width: 12%;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
   margin-bottom: 0.75rem;
   border-radius: 5px;
+  transition: ease 0.2s all;
 }
 
 #visual #visualImg {
@@ -124,6 +132,13 @@
 
 #visual #visualText {
   text-align: center;
+}
+
+#skillsContainer div:hover {
+  /* transform: scale(1.1); */
+  transform: translateY(-5px);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  transition: ease 0.2s all;
 }
 
 @media (max-width: 1050px) {

@@ -1,7 +1,7 @@
 const Button = () => {
   return (
     <div id='heroBtnContainer'>
-      <button id="heroBtn">About Me</button>
+      <a href='#about'><button id="heroBtn">About Me</button></a>
     </div>
   )
 }

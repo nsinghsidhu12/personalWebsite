@@ -1,7 +1,7 @@
 const Info = () => {
   return (
     <div id='aboutInfo'>
-      <p id='aboutText'>I am a Software Engineer with experience in both mobile and web development, and graduate of the Computer Systems Technology program from BCIT. I am open to almost any opportunity, including non-technical positions that pique my interest. I am hoping to find a company that I can grow with, and that can help shape the young professional I become.</p>
+      <p id='aboutText'>I am a BCIT CST CO-OP student, and I love to work with various technologies to develop and create my projects. I am eager to improve upon my skills and expand my knowledge so I can develop greater projects.</p>
       <div id='aboutBtnContainer'>
         <button id="aboutBtn">Resume</button>
       </div>
