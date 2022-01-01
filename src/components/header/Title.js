@@ -1,7 +1,7 @@
 const Title = () => {
   return (
     <>
-      <h1 id='title'>Noorarjun Sidhu</h1>
+      <a href='#hero'><h1 id='title'>Noorarjun Sidhu</h1></a>
     </>
   )
 }

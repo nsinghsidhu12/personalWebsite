@@ -1,7 +1,7 @@
 #skills {
   display: grid;
   grid-template-columns: 1fr 20fr 1fr;
-  padding: 75px;
+  padding: 75px 0;
   background: #e6e8f9;
 }
 
@@ -37,7 +37,7 @@
 
 #html #htmlImg {
   width: 45%;
-  min-width: 70px;
+  min-width: 65px;
 }
 
 #skillsContainer #css {
@@ -52,7 +52,7 @@
 
 #css #cssImg {
   width: 45%;
-  min-width: 70px;
+  min-width: 65px;
 }
 
 #skillsContainer #js {
@@ -67,7 +67,7 @@
 
 #js #jsImg {
   width: 45%;
-  min-width: 70px;
+  min-width: 65px;
 }
 
 #skillsContainer #bootstrap {
@@ -82,7 +82,7 @@
 
 #bootstrap #bootstrapImg {
   width: 45%;
-  min-width: 70px;
+  min-width: 65px;
 }
 
 #skillsContainer #java {
@@ -97,7 +97,7 @@
 
 #java #javaImg {
   width: 45%;
-  min-width: 70px;
+  min-width: 65px;
 }
 
 #skillsContainer #git {
@@ -112,7 +112,7 @@
 
 #git #gitImg {
   width: 45%;
-  min-width: 70px;
+  min-width: 65px;
 }
 
 #skillsContainer #visual {
@@ -127,7 +127,7 @@
 
 #visual #visualImg {
   width: 45%;
-  min-width: 70px;
+  min-width: 65px;
 }
 
 #visual #visualText {

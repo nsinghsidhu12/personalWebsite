@@ -1,7 +1,7 @@
 #contact {
   display: grid;
   grid-template-columns: 1fr 20fr 1fr;
-  padding: 75px 0;
+  padding: 35px 0;
   background: #e6e8f9;
 }
 

@@ -1,6 +1,8 @@
 import './projects.css';
 import Sportfolio from './Sportfolio';
 import Title from './Title';
+import Valorant from './Valorant';
+import Website from './Website';
 
 const Projects = () => {
   return (
@@ -8,8 +10,8 @@ const Projects = () => {
       <Title/>
       <div id='projectsContainer'>
         <Sportfolio/>
-        <Sportfolio/>
-        <Sportfolio/>
+        <Valorant/>
+        <Website/>
       </div>
     </section>
   )

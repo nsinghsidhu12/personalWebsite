@@ -1,7 +1,7 @@
 const Title = () => {
   return (
     <>
-      <h1 id='projectsTitle'>Personal Projects</h1>
+      <h1 id='projectsTitle'>Projects</h1>
     </>
   )
 }
