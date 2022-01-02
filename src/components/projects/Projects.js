@@ -9,9 +9,9 @@ const Projects = () => {
     <section id='projects'>
       <Title/>
       <div id='projectsContainer'>
-        <Sportfolio/>
-        <Valorant/>
         <Website/>
+        <Valorant/>
+        <Sportfolio/>
       </div>
     </section>
   )

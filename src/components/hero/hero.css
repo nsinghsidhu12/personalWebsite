@@ -4,7 +4,7 @@
   grid-template-rows: 2fr 3fr 2fr;
   height: 100vh;
   min-height: 500px;
-  background-image: url('https://assets.hongkiat.com/uploads/minimalist-dekstop-wallpapers/4k/original/15.jpg');
+  background-image: url('/public/images/hero.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
