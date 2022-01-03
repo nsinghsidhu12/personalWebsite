@@ -130,6 +130,10 @@ ul a:hover {
     display: none;
   }
 
+  ul a {
+    margin: 0;
+  }
+
   #navActive ul {
     flex-direction: column;
     width: 100%;
