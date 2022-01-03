@@ -1,7 +1,7 @@
 const Image = () => {
   return (
     <>
-      <img id='profile' src='./images/about1.jpg' alt="Profile"/>
+      <img id='profile' src='./images/about.jpg' alt="Profile"/>
     </>
   )
 }
